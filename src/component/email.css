@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.container4{
+    position: relative;
+    margin-right:40% ;
+    margin-bottom: 190px;
+    width: 280px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.container4 .front{
+    transition: .4s;
+}
+.container4 .front p{
+    color: #ffffff;
+    background: #a01a58;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: inset -3px -4px 10px rgba(0, 0, 0, 0.35);
+}
+.container4 .back{
+    transition:  .4s;
+    background: rgba(97, 118, 241, 0.103);
+}
+.container4 .back input{
+    width: 75%;
+    right: 0;
+    font-size: 1rem;
+    background: transparent;
+    letter-spacing: .5px;
+    color: #161515;
+    height: 50px;
+}
+.container4 .back button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: #b7094c;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.container4:hover .front,
+.container4:hover .back{
+    transform: translateY(-70px);
+}
+
+.emailtitr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
